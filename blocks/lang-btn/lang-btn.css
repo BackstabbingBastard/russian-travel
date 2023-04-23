@@ -13,3 +13,7 @@
 .lang-btn:first-child {
     text-decoration: underline;
 }
+
+.lang-btn:hover {
+    opacity: 0.7;
+}
