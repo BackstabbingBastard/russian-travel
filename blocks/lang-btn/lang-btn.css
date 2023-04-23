@@ -1,0 +1,15 @@
+.lang-btn {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+    background: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+.lang-btn:first-child {
+    text-decoration: underline;
+}
