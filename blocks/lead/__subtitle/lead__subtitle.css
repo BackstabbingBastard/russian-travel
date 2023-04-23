@@ -1,6 +1,7 @@
 .lead__subtitle {
     text-align: center;
     border-width: 0;
+    margin: 0;
 }
 
 @media (min-width: 320px) {
