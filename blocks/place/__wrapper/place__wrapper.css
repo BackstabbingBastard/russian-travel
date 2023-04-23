@@ -1,10 +1,8 @@
 @media (min-width: 1280px) { 
-
     .place__wrapper {
         width: 484px;
         display: flex;
         flex-direction: column;
         gap: 27px;
     }
-
 }
