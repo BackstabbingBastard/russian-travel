@@ -1,5 +1,6 @@
 .lead__image {
     margin: 0;
+    padding: 0;
 }
 
 .lead__image:hover {
@@ -10,38 +11,36 @@
 @media (min-width: 320px) {
     .lead__image {
         width: 320px;
-        height: 200px;
+        min-height: 200px;
         margin-top: 40px;
     }
 }
 
 @media (min-width: 480px) {
     .lead__image {
-        width: 100%;
-        height: auto;
+        min-width: 480px;
     }
 
-}
+} 
 
 @media (min-width: 768px) {
     .lead__image {
-        width: 768px;
-        height: 480px;
+        width: 98%;
         margin-top: 56px;
     }
-}
+} 
 
 @media (min-width: 1024px) {
     .lead__image {
         width: 928px;
-        height: 580px;
+        min-height: 580px;
     }
 }
 
 @media (min-width: 1280px) {
     .lead__image {
         width: 984px;
-        height: 615px;
+        min-height: 615px;
         margin-top: 64px;
     }
 }

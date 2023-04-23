@@ -1,5 +1,8 @@
 .page {
+  position: relative;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   background-color: #2A2C2F;
   color: white;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -14,19 +17,19 @@
 
 @media (min-width: 768px) {
   .page {
-    min-width: 768px;
+    width: 100%
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .page {
-    min-width: 1024px;
+    min-width: 1025px;
   }
-}
+} */
 
 @media (min-width: 1280px) {
   .page {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto 0 auto;
   }
 }
