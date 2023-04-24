@@ -1,23 +1,32 @@
 @media (min-width: 320px) {
     .intro {
-        padding: 0 16px 0 16px;
+        margin: 0 16px 0 16px;
     }
 }
 
 @media (min-width: 768px) {
     .intro {
-        padding: 0 24px 0 24px;
+        margin: 0 24px 0 24px;
+        width: 720px;
     }
 }
 
+@media (min-width: 770px) {
+    .intro {
+        margin: 0 auto 0 auto;
+    }
+}
+
+
+
 @media (min-width: 1024px) {
     .intro {
-        padding: 0 48px 0 48px;
+        margin: 0 48px 0 48px;
     }
 }
 
 @media (min-width: 1280px) {
     .intro {
-        padding: 0 148px 0 148px;
+        margin: 0 148px 0 148px;
     }
 }
