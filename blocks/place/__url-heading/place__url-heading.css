@@ -7,6 +7,19 @@
     line-height: 12px;
 }
 
+@media (min-width: 320px) {
+    .place__url-heading  {
+        padding-left: 14px;
+    }
+}
+
+@media (min-width: 767px) {
+    .place__url-heading {
+        padding-left: 0;
+    }
+}
+
+
 /* @media (min-width: 1280px) { 
     .place__url-heading {
         font-size: 12px;

@@ -5,8 +5,27 @@
     line-height: 163%;
 }
 
+@media (min-width: 320px) {
+    .place__paragraph {
+        font-size: 18px;
+        min-width: 288px;
+        padding-left: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .place__paragraph {
+        font-size: 18px;
+        min-width: 352px;
+        padding-left: 0;
+    }
+}
+
+
+
 @media (min-width: 1024px) {
     .place__paragraph {
         font-size: 18px;
+        min-width: 352px;
     }
 }
