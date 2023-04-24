@@ -9,7 +9,7 @@
     color: white;
     gap: 32px;
     z-index: 0;
-    background-size:cover;
+    background-size: cover;
     background-image: linear-gradient(rgba(42, 42, 42, 0.3), rgba(42, 42, 42, 0.3)), url(../../../images/other/cover-trains.jpg);
 }
 
@@ -18,16 +18,22 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 320px) {
     .cover__link {
         width: 100%;
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cover__link {
+        /* width: 100%; */
         min-height: 480px;
     }
 }
 
 @media (min-width: 1024px) {
     .cover__link {
-        width: 100%;
         min-height: 640px;
     }
 }
