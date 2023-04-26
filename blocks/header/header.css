@@ -21,13 +21,11 @@
 @media (min-width: 1024px) {
     .header {
         margin: 0 48px 0 48px;
-        padding: 28px 0 0 0;
     }
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
     .header {
         margin: 0 48px 0 148px;
-        padding: 28px 0 0 0;
     }
-}
+} */

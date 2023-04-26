@@ -21,11 +21,9 @@
     }
 }
 
-
-
 @media (min-width: 1024px) {
     .place__paragraph {
         font-size: 18px;
-        min-width: 352px;
+        min-width: 484px;
     }
 }

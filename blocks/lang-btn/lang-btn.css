@@ -1,17 +1,24 @@
 .lang-btn {
     font-size: 24px;
     line-height: 28px;
+    font-weight: 400;
     padding: 0;
     margin: 0;
     background: none;
     border: none;
     background-color: transparent;
     cursor: pointer;
-    font: inherit;
     color: inherit;
     text-decoration: none;
 }
 
 .lang-btn:hover {
     opacity: 0.8;
+}
+
+
+@media (min-width: 1024px) {
+    .lang-btn {
+        margin: -36px 0 0 0;
+    }
 }
