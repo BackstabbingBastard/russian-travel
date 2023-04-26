@@ -1,0 +1,16 @@
+.logo_place_header {
+    /* background: url('../../../images/logo/header-logo.svg') no-repeat; */
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    .logo_place_header  {
+        max-width: 142px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo_place_header  {
+        max-width: 176px;
+    }
+}

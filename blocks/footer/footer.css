@@ -27,7 +27,7 @@
         flex-direction: row;
         justify-content: space-between;
         max-width: 100%;
-        gap: auto;
+        /* gap: normal; */
     }
 }
 

@@ -4,6 +4,8 @@
     text-decoration: underline;
     font-size: 16px;
     line-height: 22px;
+    max-width: fit-content;
+    color: inherit;
 }
 
 @media (min-width: 320px) {

@@ -3,10 +3,10 @@
     height: 100%;
 }
 
-.photo-grid__item:hover {
+/* .photo-grid__item:hover {
     cursor: pointer;
     opacity: 0.8;
-}
+} */
 
 /* @media (min-width: 1280px) { 
     .photo-grid__item {
