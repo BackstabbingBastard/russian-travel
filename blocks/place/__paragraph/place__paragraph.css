@@ -7,23 +7,27 @@
 
 @media (min-width: 320px) {
     .place__paragraph {
-        font-size: 18px;
-        min-width: 288px;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 284px;
         padding-left: 14px;
+        padding-right: 16px;
     }
 }
 
 @media (min-width: 768px) {
     .place__paragraph {
-        font-size: 18px;
-        min-width: 352px;
+        width: 100%;
+        max-width: 358px;
         padding-left: 0;
+        padding-right: 7px;
     }
 }
 
 @media (min-width: 1024px) {
     .place__paragraph {
+        max-width: 484px;
         font-size: 18px;
-        min-width: 484px;
+        line-height: 29px;
     }
 }

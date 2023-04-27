@@ -12,20 +12,21 @@
 
 @media (min-width: 768px) {
     .places {
-        gap: 73px;
+        gap: 70px;
         padding: 88px 24px 0 24px;
     }
 }
 
 @media (min-width: 1024px) {
     .places {
-        gap: 80px;
+        gap: 82px;
         padding: 92px 48px 0 48px;
     }
 }
 
 @media (min-width: 1280px) {
     .places {
-        padding: 88px 148px 0 148px;
+        gap: 85px;
+        padding: 90px 148px 0 148px;
     }
 }

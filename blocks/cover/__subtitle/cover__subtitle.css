@@ -8,9 +8,12 @@
 @media (min-width: 320px) {
     .cover__subtitle {
         width: 100%;
-        max-width: 288px;
+        max-width: 271px;
         font-size: 14px;
         line-height: 16px;
+        padding-left: 5px;
+        padding-right: 5;
+        margin-top: -15px;
     }
 }
 
@@ -21,5 +24,12 @@
         max-width: 360px;
         font-size: 18px;
         line-height: 22px;
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .cover__subtitle {
+        margin-top: 12px;
     }
 }

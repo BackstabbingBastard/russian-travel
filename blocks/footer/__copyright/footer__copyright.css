@@ -1,4 +1,20 @@
 .footer__copyright {
     padding: 0;
     margin: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 14px;
+}
+
+
+@media (min-width: 320px) {
+    .footer__copyright {
+        padding-left: 14px;
+    }
+}
+
+@media (min-width: 400px) {
+    .footer__copyright {
+        padding-left: 0px;
+    }
 }

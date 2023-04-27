@@ -6,9 +6,16 @@
 
 @media (min-width: 320px) {
     .intro__title {
+        max-width: 248px;
         font-size: 32px;
         line-height: 35px;
         margin-top: 64px;
+    }
+}
+
+@media (min-width: 325px) {
+    .intro__title {
+        max-width: 95%;
     }
 }
 
@@ -17,6 +24,20 @@
         font-size: 54px;
         line-height: 58px;
         margin-top: 88px;
+        /* opacity: 0.69; */
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro__title {
+        margin-top: 94px;
+
+    }
+}
+
+@media (min-width: 1279px) {
+    .intro__title {
+        margin-top: 92px;
         /* opacity: 0.69; */
     }
 }

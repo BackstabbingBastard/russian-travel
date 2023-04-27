@@ -8,7 +8,8 @@
 
 @media (min-width: 320px) {
     .cover__title {
-        width: 288px;
+        /* margin-top: 10px; */
+        max-width: 255px;
         font-size: 32px;
         line-height: 35px;
     }
@@ -16,8 +17,10 @@
 
 @media (min-width: 768px) {
     .cover__title {
-        width: 560px;
+        max-width: 560px;
         font-size: 72px;
         line-height: 76px;
     }
 }
+
+

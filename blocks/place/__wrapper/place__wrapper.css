@@ -1,8 +1,17 @@
+.place__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 320px) { 
+    .place__wrapper {
+        gap: 25px;
+    }
+}
+
 @media (min-width: 1280px) { 
     .place__wrapper {
-        width: 484px;
-        display: flex;
-        flex-direction: column;
-        gap: 27px;
+        min-width: 484px;
+        gap: 35px;
     }
 }
