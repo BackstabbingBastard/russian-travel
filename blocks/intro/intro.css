@@ -17,11 +17,15 @@
     }
 }
 
-
-
 @media (min-width: 1024px) {
     .intro {
         margin: 0 48px 0 48px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .intro {
+        margin: 0 auto 0 auto;
     }
 }
 

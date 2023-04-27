@@ -6,12 +6,11 @@
     padding-left: 14px;
 }
 
-
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .footer__copyright {
         padding-left: 14px;
     }
-}
+} */
 
 @media (min-width: 400px) {
     .footer__copyright {
