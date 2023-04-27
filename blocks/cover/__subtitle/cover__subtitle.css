@@ -17,7 +17,6 @@
     }
 }
 
-
 @media (min-width: 768px) {
     .cover__subtitle {
         max-width: 360px;
@@ -25,7 +24,6 @@
         line-height: 22px;
     }
 }
-
 
 @media (min-width: 1280px) {
     .cover__subtitle {
