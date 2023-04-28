@@ -22,11 +22,12 @@
         max-width: 360px;
         font-size: 18px;
         line-height: 22px;
+        margin-top: 0px;
     }
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
     .cover__subtitle {
-        margin-top: 12px;
+        margin-top: 0px;
     }
-}
+} */
